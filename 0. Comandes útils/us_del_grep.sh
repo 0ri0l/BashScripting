@@ -1,19 +1,19 @@
 #!/bin/bash
 
-# Exemple d'ús del l'script: ./us_del_grep.sh documentroot /etc/httpd/conf
+# Exemple dús del script: ./us_del_grep.sh documentroot /etc/httpd/conf
 
 # Patró de cerca
-PATRO=$1
+patro=$1
 
 # Directori on buscar
-DIRECTORI=$2
+directori=$2
 
-# Búsqueda
-grep -irq $PATRO $DIRECTORI/*
+# Cerca
+grep -irq $patro $directori/*
 
 if [ $? -eq 0 ]; then
-    LLOC=$(grep -irl $PATRN $DIRECTORI/*)
-    echo "El patró $PATRO ha estat localitzat a $LLOC."
+    lloc=$(grep -irl $patro $directori/)
+    echo "El patró $PATRO ha estat localitzat a $lloc."
 else
-    echo "No s'ha trobat patró $PATRON en els arxius presents dins de $DIRECTORI."
+    echo "No s'ha trobat $patro en els arxius presents dins de $directori."
 fi
