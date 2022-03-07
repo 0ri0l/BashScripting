@@ -1,14 +1,14 @@
 #!/bin/bash
 u=(SBD 082 SBDLL321)
-Y[2]=HUSKY
+Y[0]=HUSKY
 a=(0 8 2)
 
 # Com afecten els espais?
 echo $u
-echo $Y[2]
-echo $Y[*]
+# Recorrem una taula
+echo $Y[@]
 
 # Volem veure la llista d'elements
-echo ${a[*]}
+echo ${u[*]}
 # Volem veure el primer element de la llista
 echo ${a[0]}
