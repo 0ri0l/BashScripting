@@ -1,5 +1,5 @@
 #!/bin/bash
-if [  "$1"  ==  "dilluns"  ] 
+if [ "$1"  ==  "dilluns" ] 
 	then
 		echo "L'argument introduit és Dilluns."
 	elif [ "$1" == “dimarts" ]
