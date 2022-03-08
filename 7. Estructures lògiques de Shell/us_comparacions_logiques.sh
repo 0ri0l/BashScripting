@@ -15,13 +15,15 @@ echo $param2
 		echo –e "Introdueix un número:\c"
 		# llegim què s'ha introduit per teclat
     		read numero
-		if [ “$numero” -lt 0 ] 
+		
+	if [ "$numero" -lt 0 ] 
 		then
-	      	echo "negatiu"
-		else if [ “$number” -eq 0 ] 
-			then
+	      		echo "negatiu"
+		
+		else if [ "$numero" -eq 0 ] 
+		then
 	      		echo "El número introduït és zero"
-			else
-		       echo "El número introduït és positiu"
+			
+			else echo "El número introduït és positiu"
 		fi
-fi
+	fi
