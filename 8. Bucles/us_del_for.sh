@@ -1,8 +1,8 @@
 #!/bin/bash
 # Definim l'argument i la llista de la que el pren un a un
-for i in 1 2 3 4 5
+for i in 2 3 4 5 6
 do
-   echo "Et dono la benvinguda $i cops"
+   echo " $i vegades 5 és  $((  $i  * 5 ))  "
 done
 
 # De vegades és possible que vulguem establir un valor de pas
