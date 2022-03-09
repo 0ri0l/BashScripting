@@ -10,3 +10,8 @@ while [ $valid ]
       fi
     ((comptador++))
   done
+  
+  while test "$i" -gt 0     # també pot ser while  [ $i > 0 ] 
+          do        
+                i=`expr $i - 1`
+          done
