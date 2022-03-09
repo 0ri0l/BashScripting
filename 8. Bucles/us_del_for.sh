@@ -11,3 +11,9 @@ for i in {1..5}
 do
    echo "Et dono la benvinguda $i cops"
 done
+
+# Aquest és el format que, potser, has vist més sovint
+for (( comptador=10; comptador>0; comptador-- ))
+   do
+      echo -e "$comptador\n"
+   done
