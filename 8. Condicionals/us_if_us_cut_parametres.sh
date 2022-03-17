@@ -1,5 +1,5 @@
 #!/bin/bash
-# Passarem un número de 3 xifrex com a paràmetre
+# Passarem un número de 3 xifres com a paràmetre
 # i comprovarem si és cap-i-cua o no
 clear
 NUMERO=$1
