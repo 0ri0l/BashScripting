@@ -4,5 +4,5 @@ directori=`pwd`
 echo "Hola món!"
 # ATENCIÓ perquè poso un echo sense les (dobles) cometes
 # ALERTA...
-echo La data d’avui és `date`
+echo La data actual és `date`
 echo El directori actual és $directori
