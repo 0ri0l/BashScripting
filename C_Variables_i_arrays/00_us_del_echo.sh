@@ -6,4 +6,3 @@
   echo "Hola $nom" 
 # Què passaria si substitueixo 
 # les " per ' en l’últim echo
-  
