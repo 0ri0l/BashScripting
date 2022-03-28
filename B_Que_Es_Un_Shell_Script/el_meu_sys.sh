@@ -2,7 +2,7 @@
 clear; echo "Informació proporcionada pel Bash Script elmeusys.sh. "
 echo "Hola, $USER"
 echo
-echo "La data és `date`, i aquesta setmana és `date +"%V"`."
+echo "La data és `date`, i aquesta setmana és `date +%V`."
 echo
 echo "Usuaris connectats:"
 w | cut -d " " -f 1 - | grep -v USER | sort -u
