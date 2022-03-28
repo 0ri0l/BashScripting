@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 # El primer exemple d’un bash script
 directori=`pwd`
 echo "Hola món!"
