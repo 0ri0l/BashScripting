@@ -4,7 +4,7 @@ echo "Hola, $USER"
 echo
 echo "La data és `date`, i aquesta setmana és `date +"%V"`."
 echo
-echo "Usuarios connectats:"
+echo "Usuaris connectats:"
 w | cut -d " " -f 1 - | grep -v USER | sort -u
 echo
 echo "Aquest sistema és `uname -s` i el processador és `uname -m`."
