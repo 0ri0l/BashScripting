@@ -7,7 +7,7 @@
 
 echo "El número de paràmetres és: $#"
 echo "El 1r paràmetre és $1"
-echo "El 2n paràmetre és $3"
+echo "El 3r paràmetre és $3"
 echo "El 6è paràmetre és $6"
 echo "El 10è paràmetre és ${10}"
 
@@ -16,7 +16,7 @@ echo "El 10è paràmetre és ${10}"
 shift
 echo "El número de paràmetres és: $#"
 echo "El 1r paràmetre és $1"
-echo "El 2n paràmetre és $3"
+echo "El 3r paràmetre és $3"
 echo "El 6è paràmetre és $6"
 echo "El 10è paràmetre és ${10}"
 
@@ -25,6 +25,6 @@ echo "El 10è paràmetre és ${10}"
 shift 4
 echo "El número de paràmetres és: $#"
 echo "El 1r paràmetre és $1"
-echo "El 2n paràmetre és $3"
+echo "El 3r paràmetre és $3"
 echo "El 6è paràmetre és $6"
 echo "El 10è paràmetre és ${10}"
