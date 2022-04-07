@@ -11,5 +11,5 @@ if [ $ALT1 -gt $ALT2 ] && [ $ALT1 -gt $ALT3 ]; then
 elif [ $ALT2 -gt $ALT3 ]; then
 	echo "La persona nº 2 és la més alta ($ALT2 centímetres)"
 else
-	echo "La persona nº 3 és la més alta ($ALT1 centímetres)"
+	echo "La persona nº 3 és la més alta ($ALT3 centímetres)"
 fi
