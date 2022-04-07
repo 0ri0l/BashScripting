@@ -16,5 +16,5 @@ fi
 echo Després del segon if: $variable
 else
 echo "Introdueix una varible negativa, SIUSPLAU"
-us_if_2_en_1.sh
+exit 1
 fi
