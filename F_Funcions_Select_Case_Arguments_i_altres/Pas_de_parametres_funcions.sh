@@ -5,9 +5,9 @@ funcio1(){
     echo $#
     echo $@
     echo $$
-    ans=$(($1+$2))
+    resposta=$(($1+$2))
     echo $?
-    echo $ans
+    echo $resposta
     echo $?
 }
 funcio1 2 2 3
