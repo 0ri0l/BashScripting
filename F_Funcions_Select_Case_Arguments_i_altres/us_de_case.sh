@@ -11,9 +11,9 @@ case $CP in
 		echo "Barcelona" ;;
 	250)
 		echo "Lleida" ;;
-	480)
+	[480-500])
 		echo "Bilbao" ;;
-	300)
+	3[00-50])
 		echo "Murcia" ;;
 	*)
 		echo "Aquest codi no està registrat." ;;
