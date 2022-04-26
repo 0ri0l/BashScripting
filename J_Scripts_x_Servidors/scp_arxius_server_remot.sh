@@ -1,13 +1,11 @@
 #!/bin/bash
 #
-# ################################################
+# Bash senzill per enviar còpies segures via ssh
 #
-#Bash senzill per fer còpies de seguretat dels reports del servidor
 #
-# ################################################
-_user="otorres"
-_host="backup.othor.lan"
-_dir="/home/otorres/"
+_user="daredevil"
+_host="backup.hellskitchen.lan"
+_dir="/home/daredevil/"
  
 _time=$(date)
 _now=$(date +"%m_%d_%Y")
