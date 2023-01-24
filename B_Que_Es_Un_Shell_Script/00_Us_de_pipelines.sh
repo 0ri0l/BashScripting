@@ -7,3 +7,4 @@ ls -l | sed -e “s/[aeio]/u/g"
 
 # Mostro el nombre d'usuaris connectats 
 w | cut -d " " -f 1 - | grep -v USER | sort -u
+# Quina gràcia d'uxucucuu
