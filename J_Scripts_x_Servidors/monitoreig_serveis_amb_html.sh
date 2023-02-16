@@ -40,7 +40,7 @@ echo "
 # Mostra de serveis a comprovar
 # El servidor web Apache
 EstatServei httpd
-# El firewall utilizado por defecto en CentOS 7
+# El firewall utilizat per defecte
 EstatServei firewalld
 # Un servei qualsevol
 EstatServei elmeuservei
