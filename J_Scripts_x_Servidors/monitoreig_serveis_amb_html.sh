@@ -57,3 +57,5 @@ EstatServei sshd
 echo "
 </body>
 </html>" >> $DIR/$ARXIU
+# Si vull que em mostri el document HTMl resultant..
+firefox $DIR/$ARXIU
