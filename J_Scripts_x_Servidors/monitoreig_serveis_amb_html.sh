@@ -3,6 +3,10 @@
 # Directori desti
 DIR=/var/www/html
 
+# Si no tenim l'Apache instal·lat
+# DIR=/home/ies/Baixades
+
+
 # Nom de l'arxiu HTML a generar
 ARXIU=monitor.html
 
