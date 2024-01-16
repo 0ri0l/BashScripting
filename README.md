@@ -1,8 +1,8 @@
-**COMANDES BASH
+**COMANDES BASH**
 
 An A-Z Index of the Bash command line for Linux.
 
-A
+**A**
 alias Crea un alies
 
 apropos Busca ajuda en les pàgines del manual (man -k)
@@ -15,7 +15,7 @@ awk Troba i substitueix text, database sort/validate/index
 
  
 
-B
+**B**
 bash GNU Bourne-Again SHell
 
 bg envía al background (segundo plano)
@@ -28,7 +28,7 @@ bzip2 Compress or decompress named file(s)
 
  
 
-C
+**C**
 cal Mostra un calendari
 
 case Conditionally perform a command
@@ -73,8 +73,8 @@ cut Divide un archivo en varias partes
 
  
 
-D
-date Muestra o cambia la fecha y hora
+**D**
+date Mostra o canvia la data i l'hora
 
 dc Desk Calculator
 
@@ -106,7 +106,7 @@ du Estimate file space usage
 
  
 
-E
+**E**
 echo Muestra un mensaje en la pantalla
 
 egrep Search file(s) for lines that match an extended expression
@@ -135,7 +135,7 @@ expr Evaluate expressions
 
  
 
-F
+**F**
 false Do nothing, unsuccessfully
 
 fdformat Low-level format a floppy disk
@@ -170,7 +170,7 @@ fuser Identify/kill the process that is accessing a file
 
  
 
-G
+**G**
 gawk Find and Replace text within file(s)
 
 getopts Parse positional parameters
@@ -183,7 +183,7 @@ gzip Compress or decompress named file(s)
 
  
 
-H
+**H**
 hash Remember the full pathname of a name argument
 
 head Output the first part of file(s)
@@ -194,7 +194,7 @@ hostname Print or set system name
 
  
 
-I
+**I**
 id Print user and group id’s
 
 if Conditionally perform a command
@@ -211,19 +211,19 @@ install Copy files and set attributes
 
  
 
-J
+**J**
 join Join lines on a common field
 
  
 
-K
+**K**
 kill Stop a process from running
 
 killall Kill processes by name
 
  
 
-L
+**L**
 less Display output one screen at a time
 
 let Perform arithmetic on shell variables
@@ -258,7 +258,7 @@ lsof List open files
 
  
 
-M
+**M**
 make Recompile a group of programs
 
 man Help manual
@@ -283,7 +283,7 @@ mmv Mass Move and rename (files)
 
  
 
-N
+**N**
 netstat Networking information
 
 nice Set the priority of a command or job
@@ -296,14 +296,14 @@ nslookup Query Internet name servers interactively
 
  
 
-O
+**O**
 open Open a file in its default application
 
 op Operator access
 
  
 
-P
+**P**
 passwd Modify a user password
 
 paste Merge lines of files
@@ -332,7 +332,7 @@ pwd Print Working Directory
 
  
 
-Q
+**Q**
 quota Display disk usage and limits
 
 quotacheck Scan a file system for disk usage
@@ -341,7 +341,7 @@ quotactl Set disk quotas
 
  
 
-R
+**R**
 ram ram disk device
 
 rcp Copy files between two machines
@@ -368,7 +368,7 @@ rsync Remote file copy (Synchronize file trees)
 
  
 
-S
+**S**
 screen Multiplex terminal, run remote shells via ssh
 
 scp Secure copy (remote file copy)
@@ -419,7 +419,7 @@ sync Synchronize data on disk with memory
 
  
 
-T
+**T**
 tail Output the last part of files
 
 tar Tape ARchiver
@@ -452,7 +452,7 @@ type Describe a command
 
  
 
-U
+**U**
 ulimit Limit user resources
 
 umask Users file creation mask
@@ -487,7 +487,7 @@ uudecode Decode a file created by uuencode
 
  
 
-V
+**V**
 v Verbosely list directory contents (`ls -l -b’)
 
 vdir Verbosely list directory contents (`ls -l -b’)
@@ -498,7 +498,7 @@ vmstat Report virtual memory statistics
 
  
 
-W
+**W**
 watch Execute/display a program periodically
 
 wc Print byte, word, and line counts
@@ -519,7 +519,7 @@ write Send a message to another user
 
  
 
-X
+**X**
 xargs Execute utility, passing constructed argument list(s)
 
 yes Print a string until interrupted
