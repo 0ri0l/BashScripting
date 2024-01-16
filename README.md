@@ -3,6 +3,7 @@
 An A-Z Index of the Bash command line for Linux.
 
 **A**
+
 alias Crea un alies
 
 apropos Busca ajuda en les pàgines del manual (man -k)
