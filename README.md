@@ -14,9 +14,11 @@ aspell Corrector ortogràfic
 
 awk Troba i substitueix text, database sort/validate/index
 
+
  
 
 **B**
+
 bash GNU Bourne-Again SHell
 
 bg envía al background (segundo plano)
@@ -30,6 +32,7 @@ bzip2 Compress or decompress named file(s)
  
 
 **C**
+
 cal Mostra un calendari
 
 case Conditionally perform a command
@@ -75,6 +78,7 @@ cut Divide un archivo en varias partes
  
 
 **D**
+
 date Mostra o canvia la data i l'hora
 
 dc Desk Calculator
