@@ -36,6 +36,6 @@ tail -n $lines messages > mesg.temp # Salvo en temporal
 mv mesg.temp messages # Moc.
 cat /dev/null > wtmp # Esborro wtmp.
 
-echo "Logs esborratss."
+echo "Logs esborrats."
 exit 0
 # Un zero indica que tot està OK.
