@@ -1,4 +1,5 @@
-COMANDES BASH
+**COMANDES BASH
+
 An A-Z Index of the Bash command line for Linux.
 
 A
