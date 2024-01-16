@@ -75,6 +75,7 @@ csplit Split a file into context-determined pieces
 
 cut Divide un archivo en varias partes
 
+
  
 
 **D**
@@ -141,6 +142,7 @@ expr Evaluate expressions
  
 
 **F**
+
 false Do nothing, unsuccessfully
 
 fdformat Low-level format a floppy disk
@@ -173,9 +175,11 @@ function Define Function Macros
 
 fuser Identify/kill the process that is accessing a file
 
+
  
 
 **G**
+
 gawk Find and Replace text within file(s)
 
 getopts Parse positional parameters
@@ -189,6 +193,7 @@ gzip Compress or decompress named file(s)
  
 
 **H**
+
 hash Remember the full pathname of a name argument
 
 head Output the first part of file(s)
@@ -197,9 +202,11 @@ history Command History
 
 hostname Print or set system name
 
+
  
 
 **I**
+
 id Print user and group id’s
 
 if Conditionally perform a command
@@ -217,11 +224,13 @@ install Copy files and set attributes
  
 
 **J**
+
 join Join lines on a common field
 
  
 
 **K**
+
 kill Stop a process from running
 
 killall Kill processes by name
@@ -229,6 +238,7 @@ killall Kill processes by name
  
 
 **L**
+
 less Display output one screen at a time
 
 let Perform arithmetic on shell variables
@@ -264,6 +274,7 @@ lsof List open files
  
 
 **M**
+
 make Recompile a group of programs
 
 man Help manual
@@ -289,6 +300,7 @@ mmv Mass Move and rename (files)
  
 
 **N**
+
 netstat Networking information
 
 nice Set the priority of a command or job
@@ -302,6 +314,7 @@ nslookup Query Internet name servers interactively
  
 
 **O**
+
 open Open a file in its default application
 
 op Operator access
@@ -309,6 +322,7 @@ op Operator access
  
 
 **P**
+
 passwd Modify a user password
 
 paste Merge lines of files
@@ -338,6 +352,7 @@ pwd Print Working Directory
  
 
 **Q**
+
 quota Display disk usage and limits
 
 quotacheck Scan a file system for disk usage
@@ -347,6 +362,7 @@ quotactl Set disk quotas
  
 
 **R**
+
 ram ram disk device
 
 rcp Copy files between two machines
@@ -374,6 +390,7 @@ rsync Remote file copy (Synchronize file trees)
  
 
 **S**
+
 screen Multiplex terminal, run remote shells via ssh
 
 scp Secure copy (remote file copy)
@@ -425,6 +442,7 @@ sync Synchronize data on disk with memory
  
 
 **T**
+
 tail Output the last part of files
 
 tar Tape ARchiver
@@ -458,6 +476,7 @@ type Describe a command
  
 
 **U**
+
 ulimit Limit user resources
 
 umask Users file creation mask
@@ -493,6 +512,7 @@ uudecode Decode a file created by uuencode
  
 
 **V**
+
 v Verbosely list directory contents (`ls -l -b’)
 
 vdir Verbosely list directory contents (`ls -l -b’)
@@ -504,6 +524,7 @@ vmstat Report virtual memory statistics
  
 
 **W**
+
 watch Execute/display a program periodically
 
 wc Print byte, word, and line counts
@@ -525,10 +546,12 @@ write Send a message to another user
  
 
 **X**
+
 xargs Execute utility, passing constructed argument list(s)
 
 yes Print a string until interrupted
 
 . Run a command script in the current shell
+
 
 ### Comment / Remark
