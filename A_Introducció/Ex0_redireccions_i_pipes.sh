@@ -1,6 +1,6 @@
 #!/bin/bash
 
-arxiu= "Hola_mon"
+arxiu="Hola_mon"
 
 ls -la > $arxiu
 
