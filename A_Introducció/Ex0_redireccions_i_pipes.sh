@@ -1,6 +1,6 @@
 #!/bin/bash
 
-arxiu= "Hola_mon.txt"
+arxiu= "Hola_mon"
 
 ls -la > $arxiu
 
@@ -8,8 +8,7 @@ echo "ATENCIÓ perquè llistem amb 'ls' i veiem"
 echo "que hi ha l'arxiu Hola_Mon"
 ls
 
-echo "Ara mostro el contingut"
-echo "de l'arxiu Hola_Mon"
+echo "Ara mostro el contingut de l'arxiu"
 cat $arxiu
 
 echo "Quantes línies té el (nou) arxiu Hola_Mon?"
