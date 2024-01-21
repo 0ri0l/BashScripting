@@ -1,11 +1,10 @@
 #!/bin/bash
 
-# Executo la comanda ls PERÒ.....
-# Agafo el resultat de l'execució i el passo per una canonada
-# per donar-se'l al programa sed perquè retorni la seva sortida corresponent.
-ls -l | sed -e "s/[aeio]/u/g"
+#!/bin/bash
 
-# Mostro el nombre d'usuaris connectats 
-w | cut -d " " -f 1 - | grep -v USER | sort -u
+# En aquest Script definim una canonada on, amb l'ordre "top" i "grep", farem una cerca dins d'un fitxer 
+# de les línies que coincideixen amb un patró determinat.
 
-# Quina gràcia d'uxucucuu
+# Per exemple, farem una cerca del procés "konsole" i desarem les dades resultants en un arxiu.
+
+top | grep -e "konsole" >> resultat
