@@ -15,3 +15,10 @@ done <$arxiu
 
 # Per tant, un here-document és un bloc de codi de propòsit especial, que utilitza una forma de redirecció d'E/S 
 # per proporcionar una llista d'ordres a un programa o ordre interactiu com cat, ftp, php, o un editor de text
+
+# Des del terminal del comandes executa la següent línia d'ordres
+cat <<EOF > script.sh
+#!/bin/bash
+echo \$PWD
+echo $PWD
+EOF
