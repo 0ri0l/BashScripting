@@ -4,11 +4,10 @@ arxiu="Hola_mon"
 
 ls -la > $arxiu
 
-echo "ATENCIÓ perquè llistem amb 'ls' i veiem"
-echo "que hi ha l'arxiu Hola_Mon"
+echo "ATENCIÓ perquè llistem amb 'ls' i veiem què hi ha a l'arxiu"
 ls
 
-echo "Ara mostro el contingut de l'arxiu"
+echo "Ara mostro el contingut de l'arxiu Hola_Mon"
 cat $arxiu
 
 echo "Quantes línies té el (nou) arxiu Hola_Mon?"
