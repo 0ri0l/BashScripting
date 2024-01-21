@@ -1,11 +1,25 @@
 #!/bin/bash
 
-arxiu2="Adeu_mon"
+arxiu="Hola_mon"
 
-echo "ATENCIÓ! Faig un llistat del que hi ha al directori"
-ls -l
+ls -la > $arxiu
 
-# Ara utilitzo l'ordre while per executar un bucle mentre fem la lectura
+echo "ATENCIÓ perquè llistem amb 'ls' i veiem què hi ha a l'arxiu"
+ls
+
+echo "Ara mostro el contingut de l'arxiu Hola_Mon"
+cat $arxiu
+
+echo "Quantes línies té el (nou) arxiu Hola_Mon?"
+cat $arxiu | wc -l
+
+echo "AFEGIM el valor a l'arxiu Hola_Mon"
+cat $arxiu | wc -l >> $arxiu
+# Hem afegit contingut al final de l'arxiu (si l'arxiu no hagués existit, s'hauria creat)
+
+# -------- ESTAN PASANDO COSAS!! -------- 
+
+# Ara llegeixo (i mostro) l'arxiu línia a línia amb el bucle While i l'operand <
 while read -r line; do
   echo "$line"
-done <$arxiu2
+done <$arxiu
