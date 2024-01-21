@@ -26,4 +26,8 @@ echo "Això és un missatge d'error." >&2  # stderr
 # >& és la sintaxis per redirigir un flux (stream) a 
 # un altre descriptor d’arxiu (0 és stdin, 1 és stdout i 2 is stderr)
 
+echo "Indique un comando a realizar:"
+read # Probemos de ejecutar un comando que no existe. 
+$REPLY &>> error.txt
+
 echo "Fi de l'script"
