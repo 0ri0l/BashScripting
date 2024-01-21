@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 directori=`pwd`
 nom=Oriol
