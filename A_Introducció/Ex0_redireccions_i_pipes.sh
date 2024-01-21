@@ -2,6 +2,7 @@
 
 arxiu="Hola_mon"
 
+#Bolco el resultat en l'arxiu
 ls -la > $arxiu
 
 echo "ATENCIÓ perquè llistem amb 'ls' i veiem què hi ha a l'arxiu"
