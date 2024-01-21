@@ -1,6 +1,8 @@
 #!/bin/bash
 
+touch Adeu_mon
 arxiu2="Adeu_mon"
+
 
 echo "ATENCIÓ! Faig un llistat del que hi ha al directori"
 ls -l
