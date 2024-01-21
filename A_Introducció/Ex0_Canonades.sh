@@ -5,4 +5,4 @@
 
 # Per exemple, farem una cerca del procés "konsole" i desarem les dades resultants en un arxiu.
 
-top | grep -e "konsole" >> resultat
+top | grep -e "systemd" >> resultat
