@@ -12,4 +12,5 @@ echo La data d’avui és `date`
 
 # Una cadena tancada amb cometes obertes 
 # es tracta com una ordre i el shell intenta executar-la. 
+
 echo $nom, el directori actual és $directori
