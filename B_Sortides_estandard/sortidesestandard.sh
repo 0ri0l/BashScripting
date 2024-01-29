@@ -9,7 +9,7 @@ read nom  # stdin
 # Utilitzem read per llegir el nom des de l'entrada estàndard (stdin).
 
 if [ -z "$nom" ]; then
-    echo "Error!! NO has introduiit el teu nom." >&2  # stderr
+    echo "Error!! NO has introduit el teu nom." >&2  # stderr
 
 # Verifiquem si el nom està buit i emetem un missatge d'error 
 # en la sortida estàndard (stderr), si és el cas.
