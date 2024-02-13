@@ -4,6 +4,7 @@
 #  que s'executaran quan arribi(n) la senyal (o les senyals)
 
 trap "echo Muaaaahhhhh... No em pots matar!!" SIGINT SIGTERM SIGTSTP
+# Quines senyals estic evitant..?
 
 echo "Per si de cas... El PID és $$"
 
