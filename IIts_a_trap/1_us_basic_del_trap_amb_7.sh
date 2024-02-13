@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Afegeixo el 7 per veure l'execució de l'script i
-# comprovar que no hi han errors
+# Afegeixo el 7 per veure l'execució de l'script
+# i comprovar que no apareixen errors
 
-set -xvn
+set -xv
 
 # El kill normal o el kill -9 sempre serà un aniquilador
 
