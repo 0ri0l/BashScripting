@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -xv
+set -xvn
 
 # El kill normal o el kill -9 sempre serà un aniquilador
 
