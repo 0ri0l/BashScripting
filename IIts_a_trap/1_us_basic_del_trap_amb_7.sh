@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Afegeixo el 7 per veure l'execució de l'script i
+# comprovar que no hi han errors
+
 set -xvn
 
 # El kill normal o el kill -9 sempre serà un aniquilador
